@@ -27,48 +27,97 @@ body {
 .container {
     height: auto;
     width: var(--width-full);
+    height: 70px;
 }
 
 .navigation {
     background-color: greenyellow;
     position: relative;
     z-index: 1;
+    width: var(--width-full);
 }
 
-.menu-container {
+.menu_container {
     width: var(--width-12col);
     margin: 0 auto 0 auto;
-    height: 74.55px;
-}
-
-
-
-.menu-container ul {
-    display: flex;
-    font-size: 12px;
-    height: 74.55px;
-}
-
-
-.menu-container ul li {
-    list-style-type: none;
-    margin: 0 20px 0 0;
-    margin-top: 30px;
-}
-
-
-.menu-container ul li a{
-    color: blue;
-    text-decoration: none;
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: repeat(12 / 1fr);
     text-transform: uppercase;
-    padding: 30px 10px 30px 10px;
-    background-color: darkgoldenrod;
 }
 
-.menu-container ul li a:hover{
-    color: aquamarine;
-    background-color: chocolate;
+.menu_container a {
+    text-decoration: none;
+    color: red;
+    background-color: forestgreen;
+    display: block;
+    padding: 15px 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 auto 0;
 }
+
+.menu_container a:hover {
+    color: blue;
+    background-color: hotpink;
+}
+
+.butt img{
+    grid-column: 1 / 1 span;
+    object-fit: cover;
+    height: 70px;
+    width: 135.24px;
+}
+
+.cake {
+    grid-column: 3 / 1 span;
+}
+
+.cock {
+    grid-column: 4 / 1 span;
+}
+
+.penis {
+    grid-column: 12 / 1 span;
+}
+
+.hero {
+    width: var(--width-full);
+    height: 600px;
+    background-image: url("https://picsum.photos/1920/1080");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-light);
+}
+
+
+.hero_container {
+    width: var(--width-12col);
+    background-color: #bf5b23;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    gap: var(--grid-gap);
+    display: grid;
+    grid-template-columns: repeat(12 / 1fr);
+}
+
+.hero_text {
+    color: #ededed;
+}
+
+.hero_text h1 {
+    color: blueviolet;
+    grid-column: 1 / 1 span;
+}
+
+.hero_text p{
+    grid-column: 2 / 1 span;
+}
+
+
+
+
 
 .content_area {
     display: flex;
@@ -102,7 +151,7 @@ body {
 
 .content_area_content_middle_right{
     background-color: var(--background-color-light);
-    width:50%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
