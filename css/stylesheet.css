@@ -27,7 +27,6 @@ body {
 .container {
     height: auto;
     width: var(--width-full);
-    height: 70px;
 }
 
 .navigation {
@@ -42,43 +41,54 @@ body {
     margin: 0 auto 0 auto;
     display: grid;
     gap: var(--grid-gap);
-    grid-template-columns: repeat(12 / 1fr);
+    grid-template-columns: repeat(12, 1fr);
     text-transform: uppercase;
+    height: 80px;
 }
 
 .menu_container a {
     text-decoration: none;
-    color: red;
-    background-color: forestgreen;
-    display: block;
-    padding: 15px 0 15px 0;
     font-size: 20px;
-    text-align: center;
-    margin: 10px 0 auto 0;
+    width: 100%;
+    display: flex;
 }
 
-.menu_container a:hover {
+.menu_container a p {
+    margin: auto;
+    text-align: center;
+}
+
+#menu-box {
+    color: red;
+    background-color: forestgreen;
+    display: flex;
+}
+
+#menu-box:hover {
     color: blue;
     background-color: hotpink;
 }
 
-.butt img{
-    grid-column: 1 / 1 span;
-    object-fit: cover;
-    height: 70px;
-    width: 135.24px;
+.butt {
+    grid-column: 1 / span 3;
+    height:80px;
+}
+
+.butt img {
+ height:80px;
+ width: 100%;
 }
 
 .cake {
-    grid-column: 3 / 1 span;
+    grid-column: 9 / 1 span;
 }
 
 .cock {
-    grid-column: 4 / 1 span;
+    grid-column: 10 / 1 span;
 }
 
 .penis {
-    grid-column: 12 / 1 span;
+    grid-column: 11 / 2 span;
 }
 
 .hero {
