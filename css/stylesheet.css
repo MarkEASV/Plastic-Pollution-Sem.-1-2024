@@ -8,10 +8,12 @@
 
     --grid-gap: 10px;
     --padding-default: 20px;
-    --primary-color: #bf5b23;
-    --background-color-light: #ededed;
-    --color-dark: #373737;
-
+    --primary-color: #2959c0;
+    --background-color: #95DFFF;
+    --background-secondary-coolor: #95B6FF;
+    --primary-text-color: #FFFFFF;
+    --sand-color: #FFF290;
+    --sign-button-color: #32CD32;
 }
 
 * {
