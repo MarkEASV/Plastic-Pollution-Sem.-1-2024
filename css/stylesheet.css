@@ -32,7 +32,7 @@ body {
 }
 
 .navigation {
-    background-color: greenyellow;
+    background-color: #95DFFF90;
     position: relative;
     z-index: 1;
     width: var(--width-full);
@@ -45,7 +45,7 @@ body {
     gap: var(--grid-gap);
     grid-template-columns: repeat(12, 1fr);
     text-transform: uppercase;
-    height: 80px;
+    height: 90px;
 }
 
 .menu_container a {
@@ -53,6 +53,8 @@ body {
     font-size: 20px;
     width: 100%;
     display: flex;
+    font-weight: 700;
+    color: #FFFFFF;
 }
 
 .menu_container a p {
@@ -60,38 +62,73 @@ body {
     text-align: center;
 }
 
-#menu-box {
+#menu_home {
     color: red;
     background-color: forestgreen;
     display: flex;
 }
 
-#menu-box:hover {
+#menu_home:hover {
     color: blue;
-    background-color: hotpink;
+    background-color: #ff69b490;
 }
 
-.butt {
+.menu_container_logo {
     grid-column: 1 / span 3;
     height:80px;
 }
 
-.butt img {
+.menu_container_logo img {
  height:80px;
- width: 100%;
+ width: 50px;
 }
 
-.cake {
+.menu_container_home {
     grid-column: 9 / 1 span;
+    border-radius: 25px;
+    height: 120px;
+    margin-top: -40px;
 }
 
-/* .cock {
-    grid-column: 10 / 1 span;
-} */
-
-.penis {
-    grid-column: 11 / 2 span;
+.menu_container_home a p {
+ padding: 0 0 40px 0;
 }
+
+.menu_container_home a {
+    background-color: #C02929;
+    border-radius: 25px;
+}
+
+.menu_container_home a:hover {
+    background-color: hotpink;
+}
+
+.menu_container_sign a {
+    background-color: #75C029;
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    margin-top: -30px;
+}
+
+.menu_container_sign a:hover {
+    background-color: #ff69b4;
+}
+
+#menu_sign p {
+ margin-top: 60px;
+}
+
+#menu_sign {
+    grid-column: 10 / span 2;
+    grid-row: 1;
+    margin-top: 1px;
+}
+
+#menu_home p {
+    margin-top: 80px;    
+}
+
 
 .hero {
     width: var(--width-full);
@@ -106,16 +143,18 @@ body {
 
 .hero_container {
     width: var(--width-12col);
-    background-color: #bf5b23;
     height: 100%;
     margin: 0 auto 0 auto;
     gap: var(--grid-gap);
     display: grid;
     grid-template-columns: repeat(12 / 1fr);
+    grid-template-rows: auto;
+    margin-top: -90px;
 }
 
 .hero_text {
     color: #ededed;
+    grid-row: 2;
 }
 
 .hero_text h1 {
@@ -246,13 +285,3 @@ body {
     padding: 10px 58px 10px 58px;
 }
 
-/*
-.cake{
-}
-
-.cock{}
-
-.penis {
-    margin-left: 400px;
-}
-*/
