@@ -263,3 +263,20 @@ body {
     padding: 10px 58px 10px 58px;
 }
 
+
+
+.Video_section {
+    width: var(--width-12col);
+    height: 1000px;
+    background-color: orange;
+    margin: 20px auto auto auto;
+}
+
+.NEGER {
+    align-items: center;
+}
+
+.NEGER iframe {
+    width: 100%;
+    height: 600px;
+}   
