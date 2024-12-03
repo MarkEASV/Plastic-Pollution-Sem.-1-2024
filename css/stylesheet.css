@@ -292,6 +292,7 @@ body {
 .video iframe {
     width: 100%;
     height: 600px;
+    
 }   
 
 .video_section h4 {
@@ -304,7 +305,7 @@ body {
     margin: 10px auto 0 auto;
 }
 
-.video p {
+.video_section p {
     background-color: black;
     color: var(--primary-text-color);
     width: fit-content;
