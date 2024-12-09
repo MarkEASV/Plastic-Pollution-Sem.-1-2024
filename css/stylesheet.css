@@ -341,6 +341,7 @@ grid-column: 1;
 
 .difference_box {
     grid-column: 4 / span 6;
+    text-align: center;
     margin-top: 40px;
     width: auto;
     height: 100px;
@@ -352,18 +353,35 @@ grid-column: 1;
     font-size: 52px;
 }
 
-.difference_fact_one {
-    grid-column: 2 / span 3;
+.difference_fact_zone {
+    grid-column: 3 / span 8;
     grid-row: 2;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    display: grid;
+    width: 100%;
+    background-color: red;
+}
+
+.difference_fact_one {
     height: 230px;
-    width: 420px;
-    background-color: green;
+    width: 380px;
+    background-color: #D9D9D9;
+    display: flex;
 }
 
 .difference_fact_two {
-    grid-column: 6 / span 3;
-    grid-row: 2;
     height: 230px;
-    width: 420px;
-    background-color: green;
+    width: 380px;
+    background-color: #D9D9D9;
+    display: flex;
+    margin-left:18px;
+}
+
+.difference_fact_three {
+    height: 230px;
+    width: 380px;
+    background-color: #D9D9D9;
+    display: flex;
+    margin-left: 34px;
 }
