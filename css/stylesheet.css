@@ -360,28 +360,130 @@ grid-column: 1;
     grid-template-rows: auto;
     display: grid;
     width: 100%;
-    background-color: red;
+    margin-top: -250px;
 }
+
+
+
 
 .difference_fact_one {
     height: 230px;
     width: 380px;
     background-color: #D9D9D9;
     display: flex;
+    justify-content: center;
+    border-radius: 5px;
 }
+
+.difference_fact_one_text_box {
+    width: 340px;
+    height: 130px;
+    background-color: #FFFFFF;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+
+.difference_face_one_circle {
+    height: 150px;
+    width: 150px;
+    background-color: #D9D9D9;
+    margin-top: -70px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.difference_face_one_circle_inner {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: #2959C0;
+    margin: 20px 0 0 25px;
+}
+
+.difference_face_one_circle_inner img {
+    margin-left: -52px;
+}
+
+
+
 
 .difference_fact_two {
     height: 230px;
     width: 380px;
     background-color: #D9D9D9;
     display: flex;
-    margin-left:18px;
+    justify-content: center;
+    border-radius: 5px;
 }
+
+.difference_fact_two_text_box {
+    width: 340px;
+    height: 130px;
+    background-color: #FFFFFF;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+
+.difference_face_two_circle {
+    height: 150px;
+    width: 150px;
+    background-color: #D9D9D9;
+    margin-top: -70px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.difference_face_two_circle_inner {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: #2959C0;
+    margin: 20px 0 0 25px;
+}
+
+.difference_face_two_circle_inner img {
+    margin-left: -52px;
+}
+
+
+
+
+
 
 .difference_fact_three {
     height: 230px;
     width: 380px;
     background-color: #D9D9D9;
     display: flex;
-    margin-left: 34px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.difference_fact_three_text_box {
+    width: 340px;
+    height: 130px;
+    background-color: #FFFFFF;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+
+.difference_face_three_circle {
+    height: 150px;
+    width: 150px;
+    background-color: #D9D9D9;
+    margin-top: -70px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.difference_face_three_circle_inner {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: #2959C0;
+    margin: 20px 0 0 25px;
+}
+
+.difference_face_three_circle_inner img {
+    margin-left: -52px;
 }
