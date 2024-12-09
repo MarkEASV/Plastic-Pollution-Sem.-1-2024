@@ -33,7 +33,7 @@ body {
 }
 
 .navigation {
-    background-color: #95DFFF90;
+    background-color: #95DFFF99;
     position: relative;
     z-index: 1;
     width: var(--width-full);
@@ -46,7 +46,7 @@ body {
     gap: var(--grid-gap);
     grid-template-columns: repeat(12, 1fr);
     text-transform: uppercase;
-    height: 90px;
+    height: 70px;
 }
 
 .menu_container a {
@@ -76,7 +76,7 @@ body {
 }
 
 .menu_container_logo img {
- height:80px;
+ height:70px;
  width: 50px;
 }
 
@@ -84,12 +84,12 @@ body {
     grid-column: 10 / 1 span;
     border-radius: 25px;
     height: 120px;
-    margin-top: -40px;
+    margin-top: -60px;
 }
 
 
 .menu_container_home a {
-    background-color: #C02929;
+    background-color: #2959C0;
     border-radius: 25px;
 }
 
@@ -120,14 +120,14 @@ body {
 }
 
 #menu_home p { 
-    margin: 60px auto auto auto;
+    margin: 80px auto auto auto;
 }
 
 
 .hero {
     width: var(--width-full);
     height: 600px;
-    background-image: url("https://picsum.photos/1920/1080");
+    background-image: url("../Images/hero-placeholder.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -173,18 +173,22 @@ body {
     font-size: 28px;
     border-radius: 5px;
 }
+ 
 
 .content_area {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 30px;
     
 }
 
+.content_area_red_three img {
+    height: auto;
+    width: 100%;
+}
+
 .content_area_content{
-    margin-top: 28px;
     display: flex;
     justify-content: space-between;
     width: var(--width-12col);
