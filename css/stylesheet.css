@@ -340,13 +340,12 @@ grid-column: 1;
 }
 
 .difference_zone {
-    margin: auto auto;
     width: var(--width-full);
     height: 650px;
     background-color: #2959C0;
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-row: auto;
-    display: grid;
 }
 
 .difference_box {
@@ -354,7 +353,7 @@ grid-column: 1;
     text-align: center;
     margin-top: 40px;
     width: auto;
-    height: 100px;
+    height: fit-content;
     padding: 20px;
     background-color: #373737;
     color: #FFFFFF;
@@ -364,18 +363,15 @@ grid-column: 1;
 }
 
 .difference_fact_zone {
-    grid-column: 3 / span 8;
+    grid-column: 1 / span 12;
     grid-row: 2;
-    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     display: grid;
     width: var(--width-12col);
-    margin: auto auto;
-    margin-top: 100px;
+    margin: 100px auto 0 auto;
+    justify-content: space-evenly;
+    display: flex;
 }
-
-
-
 
 .difference_fact_one {
     height: 230px;
@@ -384,7 +380,6 @@ grid-column: 1;
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    margin-left: 10px;
 }
 
 .difference_fact_one_text_box {
@@ -416,9 +411,6 @@ grid-column: 1;
     margin-left: -52px;
 }
 
-
-
-
 .difference_fact_two {
     height: 230px;
     width: 380px;
@@ -426,7 +418,6 @@ grid-column: 1;
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    margin-left: 10px;
 }
 
 .difference_fact_two_text_box {
@@ -459,10 +450,6 @@ grid-column: 1;
 }
 
 
-
-
-
-
 .difference_fact_three {
     height: 230px;
     width: 380px;
@@ -470,7 +457,6 @@ grid-column: 1;
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    margin-left: 10px;
 }
 
 .difference_fact_three_text_box {
@@ -508,7 +494,7 @@ grid-column: 1;
     border-radius: 100px;
     background-color: var(--primary-color);
     grid-row: 3;
-    grid-column: 6 / span 2;
+    grid-column: 1 / span 12;
     margin: 105px auto 0 auto;
 }
 
@@ -534,13 +520,16 @@ grid-column: 1;
 }
 
 .footer_red_thread {
-    width: var(--width-12col);
-    margin: auto auto;
-    margin-top: 75px;
+    width: fit-content;
+    margin: 75px auto 0 auto;
+}
+
+.footer_red_thread img {
+    width: auto;
 }
 
 .footer_sand img {
-    width: var(--width-full);
+    width: 100%;
 }
 
 .some_more_sand {
