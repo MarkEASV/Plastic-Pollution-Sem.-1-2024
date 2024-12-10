@@ -334,6 +334,11 @@ grid-column: 1;
     width: var(--width-12col);
 }
 
+.how_to_make_a_difference_area_red_thread img {
+    margin: auto auto;
+    width: var(--width-12col);
+}
+
 .difference_zone {
     margin: auto auto;
     width: var(--width-full);
@@ -531,7 +536,7 @@ grid-column: 1;
 .footer_red_thread {
     width: var(--width-12col);
     margin: auto auto;
-    margin-top: 75px
+    margin-top: 75px;
 }
 
 .footer_sand img {
