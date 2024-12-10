@@ -183,9 +183,9 @@ body {
     
 }
 
-.content_area_red_three img {
+.content_area_red_thread img {
     height: auto;
-    width: 100%;
+    width: var(--width-12col);
 }
 
 .content_area_content{
@@ -287,8 +287,8 @@ body {
     display: grid;
 }
 
-.video {
-    margin-top: 60px;
+.video_section_red_thread img {
+width: var(--width-12col);
 }
 
 .video iframe {
@@ -329,10 +329,15 @@ grid-column: 1;
     padding: 10px 20px 20px 20px;
 }
 
+.how_to_make_a_difference_area_red_thread {
+    margin: auto auto;
+    width: var(--width-12col);
+}
+
 .difference_zone {
-    margin: 200px auto auto;
+    margin: auto auto;
     width: var(--width-full);
-    height: 1000px;
+    height: 650px;
     background-color: #2959C0;
     grid-template-columns: repeat(12, 1fr);
     grid-row: auto;
@@ -359,8 +364,9 @@ grid-column: 1;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     display: grid;
-    width: 100%;
-    margin-top: -250px;
+    width: var(--width-12col);
+    margin: auto auto;
+    margin-top: 100px;
 }
 
 
@@ -373,6 +379,7 @@ grid-column: 1;
     display: flex;
     justify-content: center;
     border-radius: 5px;
+    margin-left: 10px;
 }
 
 .difference_fact_one_text_box {
@@ -414,6 +421,7 @@ grid-column: 1;
     display: flex;
     justify-content: center;
     border-radius: 5px;
+    margin-left: 10px;
 }
 
 .difference_fact_two_text_box {
@@ -457,6 +465,7 @@ grid-column: 1;
     display: flex;
     justify-content: center;
     border-radius: 5px;
+    margin-left: 10px;
 }
 
 .difference_fact_three_text_box {
@@ -486,4 +495,52 @@ grid-column: 1;
 
 .difference_face_three_circle_inner img {
     margin-left: -52px;
+}
+
+.sign_petition_big_button {
+    width: 700px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: var(--primary-color);
+    grid-row: 3;
+    grid-column: 6 / span 2;
+    margin: 105px auto 0 auto;
+}
+
+.sign_petition_big_button_green {
+    width: 660px;
+    height: 110px;
+    background-color: #75C029;
+    border-radius: 100px;
+    margin: 20px 0 0 20px;
+}
+
+.sign_petition_big_button_green p {
+    font-weight: 700;
+    font-size: 62px;
+    text-align: center;
+    padding-top: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.sign_petition_big_button a {
+    text-decoration: none;
+}
+
+.footer_red_thread {
+    width: var(--width-12col);
+    margin: auto auto;
+    margin-top: 75px
+}
+
+.footer_sand img {
+    width: var(--width-full);
+}
+
+.some_more_sand {
+    width: var(--width-full);
+    height: 60px;
+    background-color: var(--sand-color);
+    margin-top: -10px;
 }
