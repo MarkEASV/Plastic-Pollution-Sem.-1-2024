@@ -552,8 +552,12 @@ grid-column: 1;
 .footer_red_thread {
     width: fit-content;
     margin: 0 auto 0 auto;
+    height: fit-content;
 }
 
+.footer_red_thread img {
+    width: var(--width-12col);
+}
 
 .footer_sand img {
     width: 100%;
