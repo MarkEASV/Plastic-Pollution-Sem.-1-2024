@@ -264,6 +264,13 @@ body {
     padding-bottom: 14px;
 }
 
+.content_area_box_line {
+    height: 2px;
+    width: 460px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
 .content_area_box_bottom{
     width: 280px;
     height: 125px;
@@ -496,6 +503,7 @@ grid-column: 1;
     grid-row: 3;
     grid-column: 1 / span 12;
     margin: 105px auto 0 auto;
+    z-index: 1;
 }
 
 .sign_petition_big_button_green {
@@ -521,12 +529,9 @@ grid-column: 1;
 
 .footer_red_thread {
     width: fit-content;
-    margin: 75px auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
-.footer_red_thread img {
-    width: auto;
-}
 
 .footer_sand img {
     width: 100%;
