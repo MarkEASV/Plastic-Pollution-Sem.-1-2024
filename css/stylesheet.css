@@ -281,9 +281,18 @@ body {
     color: var(--primary-text-color);
 }
 
-.content_area_button{
+.content_area_content_box a {
+    width: 160px;
     margin-left: 321px;
     margin-top: 215px;
+}
+
+.content_area_button:hover {
+    background-color: #95DFFF;
+    color: #373737;
+}
+
+.content_area_button{
     border-radius: 50px;
     padding: 10px 32px 10px 32px;
     background-color: var(--primary-color);
@@ -309,8 +318,9 @@ width: var(--width-12col);
 }
 
 .video iframe {
-    height: 650px;
+    height: 675px;
     width: 100%;
+    border-radius: 5px;
 }   
 
 .video_section_text {
@@ -318,7 +328,7 @@ grid-column: 1;
 }
 
 .video_section_text h4 {
-    font-size: 22px;
+    font-size: 40px;
     background-color: #373737;
     color: var(--primary-text-color);
     grid-row: 2;
@@ -344,6 +354,8 @@ grid-column: 1;
     border-end-start-radius: 5px;
     border-end-end-radius: 5px;
     padding: 10px 20px 20px 20px;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .how_to_make_a_difference_area_red_thread {
