@@ -78,6 +78,7 @@ body {
 .menu_container_logo img {
  height:70px;
  width: 50px;
+ object-fit: cover;
 }
 
 .menu_container_home {
