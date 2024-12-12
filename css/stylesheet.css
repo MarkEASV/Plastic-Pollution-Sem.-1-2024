@@ -13,7 +13,7 @@
     --background-secondary-coolor: #95B6FF;
     --primary-text-color: #FFFFFF;
     --sand-color: #FFF290;
-    --sign-button-color: #75C029;
+    --sign-button-color: #74D12E;
 }
 
 * {
@@ -112,6 +112,7 @@ body {
 
 #menu_sign p {
     margin: 60px auto auto auto;
+    color: #373737;
 }
 
 #menu_sign {
@@ -128,7 +129,7 @@ body {
 .hero {
     width: var(--width-full);
     height: 600px;
-    background-image: url("../Images/hero-placeholder.png");
+    background-image: url("../Images/hero-placeholder.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,33 +149,16 @@ body {
 }
 
 .hero_text {
-    width: 280px;
-    height: 80px;
+    width: 460px;
+    height: 100px;
     grid-row: 2;
-}
-
-.hero_text h1 {
     background-color: #11111199;
     color: #FFFFFF;
-    width: 340px;
-    grid-column: 1 / 1 span;
-    margin: 0 0 10px 0;
-    padding: 10px;
-    text-transform: uppercase;
-    font-size: 48px;
-    border-radius: 5px;
 }
 
-.hero_text p{
-    background-color: #11111199;
-    color: #FFFFFF;
-    width: 480px;
-    grid-column: 2 / 1 span;
-    padding: 10px;
-    font-size: 28px;
-    border-radius: 5px;
+.hero_text img{
+    margin: 15px 0 0 20px;
 }
- 
 
 .content_area {
     display: flex;
@@ -418,6 +402,9 @@ grid-column: 1;
     background-color: #FFFFFF;
     margin-top: 80px;
     border-radius: 5px;
+
+    font-size: 22px;
+    padding: 10px;
 }
 
 .difference_face_one_circle {
@@ -456,6 +443,9 @@ grid-column: 1;
     background-color: #FFFFFF;
     margin-top: 80px;
     border-radius: 5px;
+
+    font-size: 22px;
+    padding: 10px;
 }
 
 .difference_face_two_circle {
@@ -495,6 +485,9 @@ grid-column: 1;
     background-color: #FFFFFF;
     margin-top: 80px;
     border-radius: 5px;
+
+    font-size: 22px;
+    padding: 10px;
 }
 
 .difference_face_three_circle {
@@ -532,7 +525,7 @@ grid-column: 1;
 .sign_petition_big_button_green {
     width: 660px;
     height: 110px;
-    background-color: #75C029;
+    background-color: var(--sign-button-color);
     border-radius: 100px;
     margin: 20px 0 0 20px;
 }
@@ -541,8 +534,8 @@ grid-column: 1;
     font-weight: 700;
     font-size: 62px;
     text-align: center;
-    padding-top: 15px;
-    color: #ffffff;
+    padding-top: 18px;
+    color: #373737;
     text-transform: uppercase;
 }
 
