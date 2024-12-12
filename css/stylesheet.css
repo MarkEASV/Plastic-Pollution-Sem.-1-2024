@@ -563,3 +563,35 @@ grid-column: 1;
     background-color: var(--sand-color);
     margin-top: -10px;
 }
+
+
+/*****************Info******************/
+
+.menu_container_home_info {
+    grid-column: 10 / 1 span;
+    border-radius: 25px;
+    height: 120px;
+    margin-top: -60px;
+}
+
+
+.menu_container_home_info a {
+    background-color: #C02929;
+    border-radius: 25px;
+}
+
+.menu_container_home_info a:hover {
+    background-color: hotpink;
+}
+
+
+.info_red_thread_one{
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    height: fit-content;
+}
+
+.info_red_thread_one img{
+    width: var(--width-12col);
+}
+
