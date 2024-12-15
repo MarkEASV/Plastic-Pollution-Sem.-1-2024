@@ -49,6 +49,19 @@ body {
     height: 70px;
 }
 
+.menu_container_logo {
+    background-color: #95DFFF90;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu_container_logo img {
+    height: 60px;
+    grid-column: 1;
+    position: relative;
+    top: 5px;
+}
+
 .menu_container a {
     text-decoration: none;
     font-size: 20px;
@@ -68,17 +81,6 @@ body {
 
 #menu_home:hover {
     background-color: #ff69b490;
-}
-
-.menu_container_logo {
-    grid-column: 1 / span 3;
-    height:80px;
-}
-
-.menu_container_logo img {
- height:70px;
- width: 50px;
- object-fit: cover;
 }
 
 .menu_container_home {
