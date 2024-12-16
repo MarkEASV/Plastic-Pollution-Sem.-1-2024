@@ -36,7 +36,7 @@ body {
     background-color: var(--background-color);
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     width: var(--width-full);
     border-bottom: var(--primary-text-color) 1px solid;
 }
@@ -665,9 +665,8 @@ grid-column: 1;
 
 .info_information_boxes_section_img {
     width: 50%;
-    background-color: red;
     height: 750px;
-    float: right;
+    display: flex;
 }
 
 .info_information_boxes_section_img img{
@@ -706,15 +705,9 @@ grid-column: 1;
     width: 50%;
     background-color: red;
     height: 750px;
-    float: left;
 }
 
-.info_information_boxes_section_img_right {
-    width: 50%;
-    background-color: red;
-    height: 750px;
-    float: right;
-}
+
 
 .info_information_boxes_section_img_right img{
     height: 100%;
