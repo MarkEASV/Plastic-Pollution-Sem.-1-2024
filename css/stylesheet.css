@@ -351,7 +351,7 @@ grid-column: 1;
 }
 
 .difference_zone {
-    width: var(--width-12col);
+    width: var(--width-full);
     height: 650px;
     background-color: #2959C0;
     display: grid;
@@ -364,7 +364,9 @@ grid-column: 1;
     grid-column: 3 / span 8;
     text-align: center;
     margin-top: 40px;
-    width: auto;
+    width: var(--width-12col);
+    margin: auto auto;
+    margin-top: 40px;
     height: fit-content;
     padding: 20px;
     background-color: #373737;
