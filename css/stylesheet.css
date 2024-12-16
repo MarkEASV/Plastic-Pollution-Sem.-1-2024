@@ -133,7 +133,7 @@ body {
 .hero {
     width: var(--width-full);
     height: 600px;
-    background-image: url("../Images/hero-placeholder.avif");
+    background-image: url("../Images/Hero-new-img.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -576,8 +576,8 @@ grid-column: 1;
 }
 
 .some_more_sand {
-    width: 100%0;
-    height: 300px;
+    width: var(--width-full);
+    height: 200px;
     background-color: var(--sand-color);
     margin-top: -10px;
 }
@@ -607,7 +607,6 @@ grid-column: 1;
     width: var(--width-12col);
     height: 100px;
     grid-row: 2;
-    background-color: #11111199;
     color: var(--primary-text-color);
     text-align: center;
     text-transform: uppercase;
