@@ -81,7 +81,7 @@ body {
 }
 
 #menu_home:hover {
-    background-color: #ff69b490;
+    background-color: #2959c0;
 }
 
 .menu_container_home {
@@ -98,7 +98,7 @@ body {
 }
 
 .menu_container_home a:hover {
-    background-color: hotpink;
+    background-color:#2959c0;
 }
 
 .menu_container_sign a {
