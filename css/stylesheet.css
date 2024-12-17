@@ -558,7 +558,7 @@ grid-column: 1;
 
 .footer{
     width: var(--width-full);
-    height: 400px;
+    height: 200px;
     justify-content: center;
     margin: auto auto;
     align-items: center;
@@ -575,12 +575,12 @@ grid-column: 1;
     width: var(--width-12col);
 }
 
-.some_more_sand {
-    width: var(--width-full);
-    height: 200px;
+/* .some_more_sand {
+    width: 1200px;
+    height: 300px;
     background-color: var(--sand-color);
-    margin-top: -10px;
-}
+    margin-top: -175px;
+} */
 
 
 
@@ -780,6 +780,7 @@ grid-column: 1;
 .video_section_text_undertext{
     display: none;
 }
+
 .info_information_boxes{
     width: auto;
 }
@@ -790,6 +791,7 @@ grid-column: 1;
 
 .difference_zone{
     width: auto;
+    height: 1150px;
     /* display: flex;
     flex-wrap: wrap;
     flex-direction: column ; */
@@ -816,9 +818,11 @@ grid-column: 1;
     width: auto
     
 }
-.footer{
-    display: none;
+
+.sign_petition_big_button_green{
+    margin: 0 5px;
 }
+
 
 .hero div{
     width: auto;
@@ -828,7 +832,7 @@ grid-column: 1;
 font-size: x-large;
 }
 
-.content_area_content_top_right{
+.content_area_content_bottom_right{
     display: none;
 }
 
@@ -874,6 +878,10 @@ margin: 2.5px 5px;
 }
 
 .footer_trail{
+    display: none;
+}
+
+.footer{
     display: none;
 }
 
