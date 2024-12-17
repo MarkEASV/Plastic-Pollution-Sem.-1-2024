@@ -746,3 +746,58 @@ grid-column: 1;
 .learn_more_links_section_ext a img:hover{
     transform: scale(1.04);
 }
+
+@media (max-width: 600px){
+
+    :root {
+        --width-12col: 100%;
+    }
+
+    
+.info_information_boxes{
+    width: auto;
+}
+
+.learn_more_links_section{
+    display: none;
+}
+
+.difference_zone{
+    width: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ; */
+}
+.difference_fact_zone{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+}
+.difference_fact_zone div{
+        margin-bottom: 100px;
+}
+.difference_box{
+    font-size: x-large;
+}
+
+.sign_petition_big_button{
+    width: auto;
+}
+.footer{
+    display: none;
+}
+
+.hero div{
+    width: auto;
+}
+
+.hero_text_text p{
+font-size: x-large;
+}
+
+.footer_trail{
+    display: none;
+}
+
+}
