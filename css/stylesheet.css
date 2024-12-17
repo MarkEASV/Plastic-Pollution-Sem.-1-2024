@@ -908,7 +908,41 @@ margin: 2.5px 5px;
         display: none;
     }
     .content_area_content_box{
-        margin: 0 5px;
-        /* padding: 45px 45px 60px 45px; */
+        /* margin: 0 5px; */
+        padding: 45px 0 60px 0;
+    }
+    .content_area_content_top_right{
+        display: none;;
+    }
+    .content_area_content_middle_left{
+        display: none;
+    }
+    .difference_zone{
+        width: auto;
+    }
+  .content_area_content{
+    width: auto;
+
+}
+
+.info_information_boxes{
+    width: 100%;
+}
+.info_information_boxes_section_text{
+    margin: 45px 25px 60px 20px;
+    width: auto;
+}
+  /* .content_area_content_box{
+    padding: 45px 45px 60px 45px;
+  }  */
+    .sign_petition_big_button_green{
+        display: grid;
+        align-items: center;
+        
+    }
+    .sign_petition_big_button_green p{
+        font-size: 45px;
+        padding: 0;
+
     }
 }
