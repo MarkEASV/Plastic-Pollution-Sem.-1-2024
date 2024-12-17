@@ -98,7 +98,7 @@ body {
 }
 
 .menu_container_home a:hover {
-    background-color:var(--sign-button-color);
+    background-color: #7c9ce2;
 }
 
 .menu_container_sign a {
@@ -110,7 +110,7 @@ body {
 }
 
 .menu_container_sign a:hover {
-    background-color:var(--primary-color);
+    background-color: #b3f043;
 }
 
 #menu_sign p {
@@ -600,7 +600,7 @@ grid-column: 1;
 }
 
 .menu_container_home_info a:hover {
-    background-color: var(--sign-button-color);
+    background-color: #7c9ce2;
 }
 
 .hero_text_info {
