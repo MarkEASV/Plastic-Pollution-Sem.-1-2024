@@ -572,7 +572,7 @@ grid-column: 1;
 }
 
 .footer_sand img {
-    width: var(--width-12col);
+    width: var(--width-full)
 }
 
 /* .some_more_sand {
