@@ -81,7 +81,7 @@ body {
 }
 
 #menu_home:hover {
-    background-color: #2959c0;
+    background-color: #6780b7;
 }
 
 .menu_container_home {
@@ -98,7 +98,7 @@ body {
 }
 
 .menu_container_home a:hover {
-    background-color:#2959c0;
+    background-color:var(--sign-button-color);
 }
 
 .menu_container_sign a {
@@ -110,7 +110,7 @@ body {
 }
 
 .menu_container_sign a:hover {
-    background-color: #ff69b4;
+    background-color:var(--primary-color);
 }
 
 #menu_sign p {
@@ -600,7 +600,7 @@ grid-column: 1;
 }
 
 .menu_container_home_info a:hover {
-    background-color: hotpink;
+    background-color: var(--sign-button-color);
 }
 
 .hero_text_info {
