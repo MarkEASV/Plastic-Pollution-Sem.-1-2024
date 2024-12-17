@@ -834,7 +834,8 @@ grid-column: 1;
 }
 
 .content_area_content_box{
-    padding: 10px 20px;
+    margin: 0 5px;
+    padding: 45px 45px 60px 45px;
 }
 
 .hero div{
@@ -900,10 +901,14 @@ margin: 2.5px 5px;
     display: none;
 }
 
+}
+
 @media (max-width:560px){
     .menu_container_logo{
         display: none;
     }
-}
-
+    .content_area_content_box{
+        margin: 0 5px;
+        /* padding: 45px 45px 60px 45px; */
+    }
 }
