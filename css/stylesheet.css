@@ -747,13 +747,39 @@ grid-column: 1;
     transform: scale(1.04);
 }
 
+.content_area_content_top_left {
+    order: 2;
+}
+
+.content_area_content_middle_left {
+    order: 1;
+}
+
 @media (max-width: 600px){
 
     :root {
         --width-12col: 100%;
     }
 
+    .content_area_content_top_left {
+        order: 1; 
+    }
+
+    .content_area_content_middle_left {
+        order: 2; 
+    }
+
+.navigation div{
+    width: auto;
+    gap: 0;
+    grid-template-columns: auto;
+    grid-column: auto;
+}    
     
+
+.video_section_text_undertext{
+    display: none;
+}
 .info_information_boxes{
     width: auto;
 }
@@ -782,7 +808,13 @@ grid-column: 1;
 }
 
 .sign_petition_big_button{
-    width: auto;
+    justify-content: center;
+    margin: 0 0;
+}
+
+.sign_petition_big_button div{
+    width: auto
+    
 }
 .footer{
     display: none;
@@ -794,6 +826,51 @@ grid-column: 1;
 
 .hero_text_text p{
 font-size: x-large;
+}
+
+.content_area_content_top_right{
+    display: none;
+}
+
+.content_area div{
+    width: auto;
+}
+
+.content_area_content{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.content_area_content div{
+margin: 2.5px 5px;
+}
+
+.content_area_content img{
+    border-radius: 5px;
+}
+
+.content_area_box_top{
+    margin-top: 5px;
+}
+
+.content_area_content_top_left {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.content_area_content_middle_right{
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+.content_area_content_bottom_left{
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.content_area_box_bottom{
+    font-size: xx-large;
 }
 
 .footer_trail{
