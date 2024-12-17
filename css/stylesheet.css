@@ -776,7 +776,13 @@ grid-column: 1;
     grid-column: auto;
 }    
     
-
+.ytp-cued-thumbnail-overlay{
+    margin: 0px 5px;
+}
+.video_section_text{
+    margin: 0px 5px;
+    border-radius: 5px;
+}
 .video_section_text_undertext{
     display: none;
 }
@@ -820,12 +826,21 @@ grid-column: 1;
 }
 
 .sign_petition_big_button_green{
+    margin: 0 5px 50px 5px;
+}
+
+.info_information_boxes{
     margin: 0 5px;
 }
 
+.content_area_content_box{
+    padding: 10px 20px;
+}
 
 .hero div{
     width: auto;
+    margin: 0px 10px;
+
 }
 
 .hero_text_text p{
@@ -883,6 +898,12 @@ margin: 2.5px 5px;
 
 .footer{
     display: none;
+}
+
+@media (max-width:560px){
+    .menu_container_logo{
+        display: none;
+    }
 }
 
 }
