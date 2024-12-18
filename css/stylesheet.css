@@ -761,8 +761,8 @@ grid-column: 1;
 
 @media (max-width: 600px){
 
-    .root {
-        width: var(--width-full);
+    :root {
+        --width-full: 100%;
     }
 
     .content_area_content_top_left {
