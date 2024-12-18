@@ -812,6 +812,7 @@ grid-column: 1;
 
     .content_area_content_middle_right {
         width: 600px;
+        margin: 50px auto 0 auto;
     }
 
     .content_area_content_bottom_right img {
@@ -819,8 +820,8 @@ grid-column: 1;
     }
 
     .content_area_content_bottom_left {
-        margin-top: 50px;
         width: 600px;
+        margin: 50px auto 0 auto;
     }
 
     .content_area_content_middle_left img {
@@ -830,6 +831,7 @@ grid-column: 1;
     .content_area_content_top_left {
         margin-top: 50px;
         width: 600px;
+        margin: 50px auto 0 auto;
     }
 
     .video_section_red_thread img {
@@ -883,7 +885,7 @@ grid-column: 1;
         height: 1000px;
         display: grid;
         grid-template-rows: auto;
-        margin-left: -10px;
+        margin-left: 10px;
     }
 
     .difference_fact_one {
@@ -901,11 +903,20 @@ grid-column: 1;
     .sign_petition_big_button_green {
         width: 500px;
         margin-top: -140px;
-        margin-left: -20px;
+    }
+
+    .footer {   
+        width: 600px;
     }
 
     .footer_trail img {
         width: 600px;
+        margin:auto auto;
+    }
+
+    .footer_sand img {
+        width: 600px;
+        margin:auto auto;
     }
 
     .some_more_sand {
