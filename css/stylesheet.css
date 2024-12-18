@@ -803,7 +803,7 @@ grid-column: 1;
     }
     
     .learn_more_links_section{
-        width: auto;
+        width: var(--width-full);
         margin: 0 5px 0 5px;
         height: 700px;
         margin-bottom: 100px;
@@ -811,7 +811,7 @@ grid-column: 1;
     
     .learn_more_links_section_text{
         padding: 15px;
-        width: 500px;  
+        width: var(--width-full);  
         margin-top: 50px;
     }
     
@@ -822,33 +822,31 @@ grid-column: 1;
     
     .learn_more_links_section_ext {
         display: grid;
-        width: 450px;
+        width: var(--width-full);
         margin: 0 auto 0 auto;
         height: 90%;
         padding: 15px 0 5px 0;
     }
     
     .learn_more_links_section_ext a{
-        width: 380px;
+        width: var(--width-full);
         height: 120px;
     }
     
     .learn_more_links_section_ext img{
-        width: 500px;
+        width: var(--width-full);
         height: 100%;
         border-radius: red 30px solid;
         
     }
     
     .difference_zone{
-        width: auto;
+        width: var(--width-full);
         height: 1200px;
-        /* display: flex;
-        flex-wrap: wrap;
-        flex-direction: column ; */
+       
     }
     .difference_fact_zone{
-        width: auto;
+        width: var(--width-full);
         display: flex;
         flex-wrap: wrap;
         flex-direction: column ;
@@ -868,7 +866,7 @@ grid-column: 1;
     }
     
     .sign_petition_big_button div{
-        width: auto
+        width: var(--width-full);
         
     }
     
@@ -893,7 +891,7 @@ grid-column: 1;
     }
     
     .hero div{
-        width: auto;
+        width: var(--width-full);
         margin: 0px 10px;
     
     }
@@ -909,7 +907,7 @@ grid-column: 1;
     }
     
     .content_area div{
-        width: auto;
+        width: var(--width-full);
     }
     
     .content_area_content{
@@ -970,7 +968,7 @@ grid-column: 1;
 
 }
 
-/*560 media*/
+/*560 media
 
 
 @media (max-width:560px){
@@ -1047,7 +1045,9 @@ grid-column: 1;
         .info_information_boxes_section_img{
             display: none;
         }
-
+    
+        
 
 
 }
+        */
