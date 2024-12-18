@@ -765,6 +765,10 @@ grid-column: 1;
         width: 600px;
     }
 
+    .hero {
+        width: 600px;
+    }
+
     #menu_home {
         grid-column: 2;
         width: 80px;
