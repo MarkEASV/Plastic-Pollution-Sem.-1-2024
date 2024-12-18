@@ -904,6 +904,7 @@ grid-column: 1;
     .sign_petition_big_button_green {
         width: 500px;
         margin-top: -140px;
+        margin-left: -20px;
     }
 
     .footer {   
