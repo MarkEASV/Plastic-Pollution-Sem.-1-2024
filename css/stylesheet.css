@@ -972,7 +972,7 @@ margin: 2.5px 5px;
 /*560 media*/
 
 
-@media (max-width:560px){
+@media (max-width:480px){
     .menu_container_logo{
         display: none;
     }
