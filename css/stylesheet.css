@@ -813,6 +813,7 @@ grid-column: 1;
     .content_area_content_middle_right {
         width: 600px;
         margin: 50px auto 0 auto;
+        
     }
 
     .content_area_content_bottom_right img {
@@ -910,19 +911,56 @@ grid-column: 1;
     }
 
     .footer_trail img {
-        width: 600px;
-        margin:auto auto;
+        display: none;
     }
 
     .footer_sand img {
+        display: none;
+    }
+
+
+    /************info website*******************/
+
+    .hero_container h2 {
+        font-size: 46px;
         width: 600px;
-        margin:auto auto;
     }
 
-    .some_more_sand {
+    .hero_text_info {
+        width: 600px;
+    }
+
+    .info_red_thread_one img {
+        width: 600px;
+    }
+
+    .info_red_thread_one_flipped img {
+        width: 600px;
+    }
+
+    .learn_more_links_section {
+        width: 600px;
+    }
+
+    .learn_more_links_section_text {
+        width: 550px;
+        font-size: 44px;
+        margin-left: -12px;
+    }
+
+    .learn_more_links_section_ext {
+        width: 550px;
+        height: 100px;
+        margin-left: -12px;
+    }
+    
+    .learn_more_links_section_ext a img {
+        object-fit: contain;
+        height: 72px;
+    }
+
+    .footer {
         background-color: var(--sand-color);
-        height: 90px;
     }
-
 
 }
